@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+ .formbox {
+  padding: 30px;
+ }
+
+ .form-control {
+  width: 50%;
+  height: 50px;
+ }

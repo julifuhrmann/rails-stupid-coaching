@@ -1,4 +1,9 @@
-<form action="/answer" data-turbo="false">
-  <input type="text" name="question">
-  <input type="submit" value="Ask!">
-</form>
+<div class="formbox">
+  <h1> Stupid Coaching</h1>
+  <p>Ask your coach anything</p>
+
+  <form class="input-group mb-3" action="/answer" data-turbo="false">
+    <input type="text" class="form-control" name="question" aria-label="Recipient's username" aria-describedby="button-addon2">
+    <button class="btn btn-primary" type="button" id="button-addon2">Ask!</button>
+  </form>
+</div>
